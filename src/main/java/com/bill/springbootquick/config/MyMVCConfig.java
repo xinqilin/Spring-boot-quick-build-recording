@@ -18,7 +18,6 @@ public class MyMVCConfig implements WebMvcConfigurer {
 //        map.put("/","login");
 //        map.put("/index.html","login");
 //        map.put("/login.html","login");
-            //亂寫
 //        registry.addViewController(map.containsKey(/)).setViewName(map.get());
         registry.addViewController("/").setViewName("login");
         registry.addViewController("/index.html").setViewName("login");
