@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.thymeleaf.util.StringUtils;
 
+import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 @Controller
@@ -18,8 +19,10 @@ public class LoginController {
     @PostMapping(value = "/login")
     public String login(@RequestParam("username") String username,
                         @RequestParam("password") String password,
-                        Map<String, String> map) {
+                        Map<String, String> map, HttpSession session) {
+
         if (!StringUtils.isEmpty(username) && password.equals("123456")) {
+            session.setAttribute("userInfo", username);
             return "redirect:/main.html";
         } else {
             map.put("msg", "密碼錯誤!!!");
