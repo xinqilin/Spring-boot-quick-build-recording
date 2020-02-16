@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+person:
+  name: 小吳
+  age: 18
+  boss: true
+  maps: {k1: v1,k2: v2}
+  list1: [dog,無,doll]
+  set1:
+   - dog1
+   - dog2
+   - dog3
