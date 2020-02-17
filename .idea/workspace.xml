@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19c72e7-9223-452f-84e3-2453c4b675b6" name="Default Changelist" comment="Entity setting">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/component/LoginHandlerIntercepter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/config/MyMVCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/config/MyMVCConfig.java" afterDir="false" />
@@ -10,6 +11,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/config/MyMVCConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/config/MyMVCConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/dashboard.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -122,11 +129,34 @@
       <workItem from="1581771074405" duration="5996000" />
       <workItem from="1581821682517" duration="1231000" />
       <workItem from="1581826409789" duration="12058000" />
+      <workItem from="1581939649019" duration="642000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entity setting" />
@@ -141,10 +171,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581829127571" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1581871029365">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1581871029365" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1581510480824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581510480824" />
+<<<<<<< HEAD
     <state width="1281" height="190" key="GridCell.Tab.0.bottom" timestamp="1581870709044">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -186,9 +221,52 @@
     </state>
     <state x="362" y="82" width="552" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1581868004472" />
     <state x="326" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1581826421987">
+=======
+    <state width="1281" height="190" key="GridCell.Tab.0.bottom" timestamp="1581871322068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="326" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581826421987" />
+    <state width="1281" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state width="1281" height="190" key="GridCell.Tab.0.center" timestamp="1581871322068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state width="1281" height="190" key="GridCell.Tab.0.left" timestamp="1581871322068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state width="1281" height="190" key="GridCell.Tab.0.right" timestamp="1581871322068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state width="1281" height="190" key="GridCell.Tab.1.bottom" timestamp="1581871322068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="190" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state width="1281" height="190" key="GridCell.Tab.1.center" timestamp="1581871322068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="190" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state width="1281" height="190" key="GridCell.Tab.1.left" timestamp="1581871322068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="190" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state width="1281" height="190" key="GridCell.Tab.1.right" timestamp="1581871322068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="190" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1581870994657">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581870994657" />
+    <state x="362" y="82" width="540" height="524" key="StructurePopup" timestamp="1581833086405">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1581833086405" />
+    <state x="326" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1581943984931">
+>>>>>>> master
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="326" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581943984931" />
     <state x="401" y="58" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581830199736">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
