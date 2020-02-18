@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f19c72e7-9223-452f-84e3-2453c4b675b6" name="Default Changelist" comment="Entity setting">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/component/LoginHandlerIntercepter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/config/MyMVCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/config/MyMVCConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/config/MyMVCConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/config/MyMVCConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/dashboard.html" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> master
-    </list>
+    <list default="true" id="0e24ffde-2ddb-415e-898d-29e84c006f01" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,55 +10,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1XfK48CitAUZ06UaQClsm6uTAIh" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1Xz5P2z5r8JA0KJjqmCAZb1X1zO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\static" />
-      <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\java\com\bill\springbootquick" />
-      <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\templates" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\templates\emp" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootQuickBuildApplication">
-    <configuration name="SpringBootQuickBuildApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="SpringBootQuickBuildApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-quick-build" />
       <extension name="coverage">
         <pattern>
@@ -79,16 +43,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bill.springbootquick" />
-      <option name="MAIN_CLASS_NAME" value="com.bill.springbootquick.SpringBootQuickBuildApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootQuickBuildApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-quick-build" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bill.springbootquick.SpringBootQuickBuildApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,7 +50,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringBootQuickBuildApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.SpringBootQuickBuildApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -117,159 +71,55 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f19c72e7-9223-452f-84e3-2453c4b675b6" name="Default Changelist" comment="" />
-      <created>1581431514081</created>
+      <changelist id="0e24ffde-2ddb-415e-898d-29e84c006f01" name="Default Changelist" comment="" />
+      <created>1581945536241</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581431514081</updated>
-      <workItem from="1581431519924" duration="2383000" />
-      <workItem from="1581504460347" duration="6889000" />
-      <workItem from="1581594718884" duration="2714000" />
-      <workItem from="1581694822144" duration="1228000" />
-      <workItem from="1581771074405" duration="5996000" />
-      <workItem from="1581821682517" duration="1231000" />
-      <workItem from="1581826409789" duration="12058000" />
-      <workItem from="1581939649019" duration="642000" />
+      <updated>1581945536241</updated>
+      <workItem from="1581945540009" duration="2320000" />
+      <workItem from="1582036061838" duration="5391000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="SHOW_OTHER_BRANCHES" value="true" />
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Entity setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entity setting" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1581868341554">
+    <state width="1281" height="170" key="GridCell.Tab.0.bottom" timestamp="1582041550384">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581868341554" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1581829127571">
+    <state width="1281" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582041550384" />
+    <state width="1281" height="170" key="GridCell.Tab.0.center" timestamp="1582041550384">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581829127571" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1581871029365">
+    <state width="1281" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582041550384" />
+    <state width="1281" height="170" key="GridCell.Tab.0.left" timestamp="1582041550384">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1581871029365" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1581510480824">
+    <state width="1281" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582041550384" />
+    <state width="1281" height="170" key="GridCell.Tab.0.right" timestamp="1582041550384">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581510480824" />
-<<<<<<< HEAD
-    <state width="1281" height="190" key="GridCell.Tab.0.bottom" timestamp="1581870709044">
+    <state width="1281" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582041550384" />
+    <state width="1281" height="170" key="GridCell.Tab.1.bottom" timestamp="1582041550385">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581870709044" />
-    <state width="1281" height="190" key="GridCell.Tab.0.center" timestamp="1581870709044">
+    <state width="1281" height="170" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582041550385" />
+    <state width="1281" height="170" key="GridCell.Tab.1.center" timestamp="1582041550384">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581870709044" />
-    <state width="1281" height="190" key="GridCell.Tab.0.left" timestamp="1581870709043">
+    <state width="1281" height="170" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582041550384" />
+    <state width="1281" height="170" key="GridCell.Tab.1.left" timestamp="1582041550384">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581870709043" />
-    <state width="1281" height="190" key="GridCell.Tab.0.right" timestamp="1581870709044">
+    <state width="1281" height="170" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582041550384" />
+    <state width="1281" height="170" key="GridCell.Tab.1.right" timestamp="1582041550385">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581870709044" />
-    <state width="1281" height="190" key="GridCell.Tab.1.bottom" timestamp="1581870709045">
+    <state width="1281" height="170" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582041550385" />
+    <state x="326" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582036088523">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581870709045" />
-    <state width="1281" height="190" key="GridCell.Tab.1.center" timestamp="1581870709044">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581870709044" />
-    <state width="1281" height="190" key="GridCell.Tab.1.left" timestamp="1581870709044">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581870709044" />
-    <state width="1281" height="190" key="GridCell.Tab.1.right" timestamp="1581870709045">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581870709045" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1581845794794">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581845794794" />
-    <state x="362" y="82" width="552" height="524" key="StructurePopup" timestamp="1581868004472">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="362" y="82" width="552" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1581868004472" />
-    <state x="326" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1581826421987">
-=======
-    <state width="1281" height="190" key="GridCell.Tab.0.bottom" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state width="1281" height="190" key="GridCell.Tab.0.center" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state width="1281" height="190" key="GridCell.Tab.0.left" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state width="1281" height="190" key="GridCell.Tab.0.right" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state width="1281" height="190" key="GridCell.Tab.1.bottom" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state width="1281" height="190" key="GridCell.Tab.1.center" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state width="1281" height="190" key="GridCell.Tab.1.left" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state width="1281" height="190" key="GridCell.Tab.1.right" timestamp="1581871322068">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1281" height="190" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581871322068" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1581870994657">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581870994657" />
-    <state x="362" y="82" width="540" height="524" key="StructurePopup" timestamp="1581833086405">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1581833086405" />
-    <state x="326" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1581943984931">
->>>>>>> master
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="326" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581943984931" />
-    <state x="401" y="58" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581830199736">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="401" y="58" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1581830199736" />
+    <state x="326" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582036088523" />
   </component>
 </project>
