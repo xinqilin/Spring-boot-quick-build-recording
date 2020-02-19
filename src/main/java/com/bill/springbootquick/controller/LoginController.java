@@ -21,7 +21,7 @@ public class LoginController {
                         @RequestParam("password") String password,
                         Map<String, String> map, HttpSession session) {
 
-        if (!StringUtils.isEmpty(username) && password.equals("123456")) {
+        if (!StringUtils.isEmpty(username) && password.equals("zzz")) {
             session.setAttribute("userInfo", username);
             return "redirect:/main.html";
         } else {
