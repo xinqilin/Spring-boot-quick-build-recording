@@ -66,20 +66,34 @@
 				</nav>
 
 				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-					<h2>Section title</h2>
+					<h2>員工一覽表</h2>
+					<button class="btn btn-sm btn-success">新增</button>
 					<div class="table-responsive">
 						<table class="table table-striped table-sm">
 							<thead>
 								<tr>
-									<th>#</th>
-									<th>Header</th>
-									<th>Header</th>
-									<th>Header</th>
-									<th>Header</th>
+									<th>EmployeeID</th>
+									<th>LastName</th>
+									<th>E-mail</th>
+									<th>Gender</th>
+									<th>Department</th>
+									<th>Birth</th>
+									<th>Edit it!</th>
 								</tr>
 							</thead>
 							<tbody>
-								
+								<tr th:each="e:${emps}">
+									<td th:text="${e.id}"></td>
+									<td>[[${e.lastName}]]</td>
+									<td th:text="${e.email}"></td>
+									<td th:text="${e.gender}==0?'女':'男'"></td>
+									<td th:text="${e.department.departmentName}"></td>
+									<td th:text="${#dates.format(e.birth,'yyyy-MM-dd HH:mm')}"></td>
+									<td>
+										<button class="btn btn-sm btn-primary">編輯</button>
+										<button class="btn btn-sm btn-danger">刪除</button>
+									</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
