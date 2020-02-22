@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e24ffde-2ddb-415e-898d-29e84c006f01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/EmployeeController.class" afterDir="false" />
-    </list>
+    <list default="true" id="0e24ffde-2ddb-415e-898d-29e84c006f01" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +93,7 @@
       <workItem from="1582303054367" duration="26000" />
       <workItem from="1582303607113" duration="62000" />
       <workItem from="1582338601480" duration="56000" />
-      <workItem from="1582342981414" duration="20316000" />
+      <workItem from="1582342981414" duration="20575000" />
     </task>
     <servers />
   </component>
