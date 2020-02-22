@@ -60,7 +60,7 @@ public class EmployeeController {
     }
 
 //    @RequestMapping(value = "/updateEmp" ,method = RequestMethod.PUT)
-    @PostMapping("/updateEmp")
+    @PutMapping("/updateEmp")
     public String updateEmp(Employee employee){
 //        employee.setId(id);
         employeeDao.save(employee);
