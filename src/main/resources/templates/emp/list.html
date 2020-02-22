@@ -90,8 +90,8 @@
 									<td th:text="${e.department.departmentName}"></td>
 									<td th:text="${#dates.format(e.birth,'yyyy-MM-dd HH:mm')}"></td>
 									<td>
-										<button class="btn btn-sm btn-primary">編輯</button>
-										<button class="btn btn-sm btn-danger">刪除</button>
+										<a class="btn btn-sm btn-primary" th:href="@{/toUpdatePage}+${e.id}">編輯</a>
+										<a class="btn btn-sm btn-danger" th:href="@{/toDeletePage}">刪除</a>
 									</td>
 								</tr>
 							</tbody>
