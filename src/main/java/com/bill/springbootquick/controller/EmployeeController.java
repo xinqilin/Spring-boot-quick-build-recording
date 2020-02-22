@@ -69,10 +69,12 @@ public class EmployeeController {
     }
 
 
-    @GetMapping("/toDeletePage")
-    public String toDeletePage() {
-        return "";
+    @DeleteMapping("/deleteEmp{id}")
+    public String toDeletePage(@PathVariable("id") Integer id) {
+        employeeDao.delete(id);
+        return "redirect:/emps";
     }
+
 
 
     @GetMapping("/error")

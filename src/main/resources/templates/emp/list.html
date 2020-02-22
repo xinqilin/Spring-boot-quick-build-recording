@@ -91,7 +91,10 @@
 									<td th:text="${#dates.format(e.birth,'yyyy-MM-dd HH:mm')}"></td>
 									<td>
 										<a class="btn btn-sm btn-primary" th:href="@{/toUpdatePage}+${e.id}">編輯</a>
-										<a class="btn btn-sm btn-danger" th:href="@{/toDeletePage}">刪除</a>
+										<form th:action="@{/deleteEmp}+${e.id}" method="post">
+											<input  type="hidden" name="_method" value="Delete"/>
+											<button type="submit" class="btn btn-sm btn-danger" >刪除</button>
+										</form>
 									</td>
 								</tr>
 							</tbody>
