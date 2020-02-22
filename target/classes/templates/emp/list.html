@@ -16,7 +16,7 @@
 		<link href="#" th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
 		<style type="text/css">
 			/* Chart.js */
-			
+
 			@-webkit-keyframes chartjs-render-animation {
 				from {
 					opacity: 0.99
@@ -25,7 +25,7 @@
 					opacity: 1
 				}
 			}
-			
+
 			@keyframes chartjs-render-animation {
 				from {
 					opacity: 0.99
@@ -34,7 +34,7 @@
 					opacity: 1
 				}
 			}
-			
+
 			.chartjs-render-monitor {
 				-webkit-animation: chartjs-render-animation 0.001s;
 				animation: chartjs-render-animation 0.001s;
@@ -91,25 +91,26 @@
 									<td th:text="${#dates.format(e.birth,'yyyy-MM-dd HH:mm')}"></td>
 									<td>
 										<a class="btn btn-sm btn-primary" th:href="@{/toUpdatePage}+${e.id}">編輯</a>
-										<form th:action="@{/deleteEmp}+${e.id}" method="post">
-											<input  type="hidden" name="_method" value="Delete"/>
-											<button type="submit" class="btn btn-sm btn-danger" >刪除</button>
-										</form>
+										<button th:attr="del_url=@{/deleteEmp}+${e.id}" class="btn btn-sm btn-danger deleteBtn" >刪除</button>
 									</td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 				</main>
+
 			</div>
 		</div>
-
+<form id="deleteForm" method="post">
+	<input type="hidden" name="_method" value="Delete">
+</form>
 		<!-- Bootstrap core JavaScript
     ================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script type="text/javascript" src="../../static/asserts/js/jquery-3.2.1.slim.min.js"></script>
-		<script type="text/javascript" src="../../static/asserts/js/popper.min.js"></script>
-		<script type="text/javascript" src="../../static/asserts/js/bootstrap.min.js"></script>
+<!--		<script type="text/javascript" src="../../static/asserts/js/jquery-3.2.1.slim.min.js"></script>-->
+<script type="text/javascript" src="asserts/js/jquery-3.2.1.slim.min.js" th:src="@{/webjars/jquery/3.4.0/jquery.js}"></script>
+		<script type="text/javascript" src="../../static/asserts/js/popper.min.js" th:src="@{/webjars/popper.js/1.14.3/popper.js}"></script>
+		<script type="text/javascript" src="../../static/asserts/js/bootstrap.min.js" th:src="@{/webjars/bootstrap/4.4.1-1/js/bootstrap.min.js}"></script>
 
 		<!-- Icons -->
 		<script type="text/javascript" src="../../static/asserts/js/feather.min.js"></script>
@@ -147,6 +148,14 @@
 					}
 				}
 			});
+		</script>
+		<script>
+			$(".deleteBtn").click(function () {
+				// alert("ddd");
+				$("#deleteForm").attr("action",$(this).attr("del_url")).submit();
+				// return false;
+			});
+
 		</script>
 
 	</body>
