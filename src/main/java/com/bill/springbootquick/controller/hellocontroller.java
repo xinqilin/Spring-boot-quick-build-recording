@@ -1,7 +1,9 @@
 package com.bill.springbootquick.controller;
 
+import com.bill.springbootquick.exception.UserNotFindException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,8 +16,10 @@ public class hellocontroller {
 
     @ResponseBody
     @RequestMapping("/sayhello")
-    public String sayHello() {
-
+    public String sayHello(@RequestParam("user") String user) {
+        if (user.equals("aaa")){
+            throw  new UserNotFindException();
+        }
         return "I say Hello";
     }
 
