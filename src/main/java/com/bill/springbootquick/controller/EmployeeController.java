@@ -11,7 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
-import java.util.List;
 
 @Controller
 public class EmployeeController {
@@ -77,8 +76,9 @@ public class EmployeeController {
 
 
 
-    @GetMapping("/error")
-    public String toErrorPage(){
-        return "404";
-    }
+//    @GetMapping("/error")
+//    public String toErrorPage(){
+//
+//        return "404";
+//    }
 }
