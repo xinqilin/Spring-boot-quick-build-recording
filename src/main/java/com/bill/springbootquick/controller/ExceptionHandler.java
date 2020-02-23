@@ -32,9 +32,10 @@ public class ExceptionHandler {
         Map<String,Object> map=new HashMap<String, Object>();
         map.put("code","UserNotFind");
         map.put("Msg",e.getMessage());
-        map.put("StackTrace", e.getStackTrace());
+//        map.put("StackTrace", e.getStackTrace());
         map.put("LocalMsg",e.getLocalizedMessage());
 
+        req.setAttribute("Extend",map);
         return "forward:/error";
     }
 }
