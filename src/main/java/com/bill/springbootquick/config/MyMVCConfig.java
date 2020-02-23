@@ -27,9 +27,15 @@ public class MyMVCConfig implements WebMvcConfigurer {
 //        map.put("/index.html","login");
 //        map.put("/login.html","login");
 //        registry.addViewController(map.containsKey(/)).setViewName(map.get());
+
+//        無腦請求
         registry.addViewController("/").setViewName("login");
         registry.addViewController("/index.html").setViewName("login");
-//        registry.addViewController("/login.html").setViewName("login");
+
+        //        i18n的請求
+        registry.addViewController("/login.html").setViewName("login");
+
+//        無腦dashboard請求
         registry.addViewController("main.html").setViewName("dashboard");
     }
 
@@ -46,6 +52,7 @@ public class MyMVCConfig implements WebMvcConfigurer {
 
     @Bean
     public LocaleResolver localeResolver() {
+
         return new SwitchLocale();
     }
 
