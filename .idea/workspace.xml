@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e24ffde-2ddb-415e-898d-29e84c006f01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__error_spring_boot_starter_mysql_unknown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/config/MyMVCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/config/MyMVCConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/config/MyMVCConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/config/MyMVCConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-quick-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-quick-build.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Xz5P2z5r8JA0KJjqmCAZb1X1zO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,6 +58,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/error" />
@@ -117,6 +125,8 @@
       <workItem from="1582342981414" duration="26755000" />
       <workItem from="1582427835360" duration="11213000" />
       <workItem from="1582445053183" duration="240000" />
+      <workItem from="1582636082408" duration="1301000" />
+      <workItem from="1582731600345" duration="260000" />
     </task>
     <servers />
   </component>
@@ -176,10 +186,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="362" y="82" width="552" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1582443469086" />
-    <state x="326" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582445055461">
+    <state x="326" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582731700607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="326" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582445055461" />
+    <state x="326" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582731700607" />
+    <state x="43" y="42" key="new project wizard" timestamp="1582636194650">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="43" y="42" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1582636194650" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582383325841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
