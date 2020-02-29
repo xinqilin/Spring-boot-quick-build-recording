@@ -9,3 +9,12 @@ CREATE TABLE `department` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
+
+
+insert into department 
+values (1001,'軟體部'),
+(1002,'硬體部'),
+(1003,'雲端部'),
+(1004,'資料部'),
+(1005,'會計部');
+

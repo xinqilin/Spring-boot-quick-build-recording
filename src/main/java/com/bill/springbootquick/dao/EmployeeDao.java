@@ -2,11 +2,13 @@ package com.bill.springbootquick.dao;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import com.bill.springbootquick.entities.Department;
 import com.bill.springbootquick.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 
@@ -17,6 +19,9 @@ public class EmployeeDao {
 	
 	@Autowired
 	private DepartmentDao departmentDao;
+
+	@Autowired
+	JdbcTemplate jdbcTemplate;
 	
 	static{
 		employees = new HashMap<Integer, Employee>();
@@ -28,7 +33,7 @@ public class EmployeeDao {
 		employees.put(1005, new Employee(1005, "E-EE", "ee@163.com", 1, new Department(105, "D-EE")));
 	}
 	
-	private static Integer initId = 1006;
+	private static Integer initId = 1;
 	
 	public void save(Employee employee){
 		if(employee.getId() == null){
