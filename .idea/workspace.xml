@@ -4,9 +4,9 @@
     <list default="true" id="0e24ffde-2ddb-415e-898d-29e84c006f01" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/JDBCConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/JDBCConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resources/employee.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resources/employee.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/JDBCConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/JDBCConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/employee.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/employee.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\templates\emp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBootQuickBuildApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.SpringBootQuickBuildApplication">
     <configuration name="SpringBootQuickBuildApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-quick-build" />
       <extension name="coverage">
@@ -125,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringBootQuickBuildApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.SpringBootQuickBuildApplication" />
+        <item itemvalue="JUnit.SpringBootQuickBuildApplicationTests.contextLoads" />
         <item itemvalue="JUnit.SpringBootQuickBuildApplicationTests" />
       </list>
     </recent_temporary>
@@ -165,7 +165,7 @@
       <workItem from="1582445053183" duration="240000" />
       <workItem from="1582636082408" duration="1301000" />
       <workItem from="1582731600345" duration="877000" />
-      <workItem from="1582889891490" duration="11856000" />
+      <workItem from="1582889891490" duration="14295000" />
     </task>
     <servers />
   </component>
@@ -197,38 +197,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582438000785" />
-    <state width="1281" height="178" key="GridCell.Tab.0.bottom" timestamp="1582956460062">
+    <state width="1281" height="280" key="GridCell.Tab.0.bottom" timestamp="1582965842686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582956460062" />
-    <state width="1281" height="178" key="GridCell.Tab.0.center" timestamp="1582956460062">
+    <state width="1281" height="280" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582965842686" />
+    <state width="1281" height="280" key="GridCell.Tab.0.center" timestamp="1582965842686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582956460062" />
-    <state width="1281" height="178" key="GridCell.Tab.0.left" timestamp="1582956460062">
+    <state width="1281" height="280" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582965842686" />
+    <state width="1281" height="280" key="GridCell.Tab.0.left" timestamp="1582965842685">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582956460062" />
-    <state width="1281" height="178" key="GridCell.Tab.0.right" timestamp="1582956460062">
+    <state width="1281" height="280" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582965842685" />
+    <state width="1281" height="280" key="GridCell.Tab.0.right" timestamp="1582965842686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582956460062" />
-    <state width="1281" height="178" key="GridCell.Tab.1.bottom" timestamp="1582956460063">
+    <state width="1281" height="280" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582965842686" />
+    <state width="1281" height="280" key="GridCell.Tab.1.bottom" timestamp="1582965842686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582956460063" />
-    <state width="1281" height="178" key="GridCell.Tab.1.center" timestamp="1582956460062">
+    <state width="1281" height="280" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582965842686" />
+    <state width="1281" height="280" key="GridCell.Tab.1.center" timestamp="1582965842686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582956460062" />
-    <state width="1281" height="178" key="GridCell.Tab.1.left" timestamp="1582956460062">
+    <state width="1281" height="280" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582965842686" />
+    <state width="1281" height="280" key="GridCell.Tab.1.left" timestamp="1582965842686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582956460062" />
-    <state width="1281" height="178" key="GridCell.Tab.1.right" timestamp="1582956460062">
+    <state width="1281" height="280" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582965842686" />
+    <state width="1281" height="280" key="GridCell.Tab.1.right" timestamp="1582965842686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="178" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582956460062" />
+    <state width="1281" height="280" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582965842686" />
     <state x="362" y="82" width="552" height="524" key="StructurePopup" timestamp="1582443469086">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
