@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e24ffde-2ddb-415e-898d-29e84c006f01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/mapper/DepartmentMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/dao/DepartmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/dao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/JDBCConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/controller/JDBCConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/dao/DepartmentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bill/springbootquick/dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-quick-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-quick-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bill/springbootquick/entities/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
         <option value="HTML4 File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\SQL" />
       <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\resources" />
       <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\templates\error" />
       <recent name="C:\Users\信錡\Desktop\spring-boot-quick-build\src\main\resources\templates\emp" />
@@ -166,7 +172,7 @@
       <workItem from="1582445053183" duration="240000" />
       <workItem from="1582636082408" duration="1301000" />
       <workItem from="1582731600345" duration="877000" />
-      <workItem from="1582889891490" duration="18141000" />
+      <workItem from="1582889891490" duration="22141000" />
     </task>
     <servers />
   </component>
