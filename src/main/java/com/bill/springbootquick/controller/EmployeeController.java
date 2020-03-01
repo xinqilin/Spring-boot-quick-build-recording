@@ -5,7 +5,7 @@ import com.bill.springbootquick.dao.DepartmentDao;
 import com.bill.springbootquick.dao.EmployeeDao;
 import com.bill.springbootquick.entities.Department;
 import com.bill.springbootquick.entities.Employee;
-//import com.bill.springbootquick.mapper.EmployeeMapper;
+import com.bill.springbootquick.mapper.EmployeeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,17 +13,17 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
-//@ResponseBody
-//@Controller
+@ResponseBody
+@Controller
 public class EmployeeController {
 
-//    @Autowired
-//    EmployeeMapper employeeMapper;
+    @Autowired
+    EmployeeMapper employeeMapper;
 
-//    @GetMapping("/select{id}")
-//    public Employee getEmp(@PathVariable("id") Integer id){
-//        return employeeMapper.getOne(id);
-//    }
+    @GetMapping("/selectEmp{id}")
+    public Employee getEmp(@PathVariable("id") Integer id){
+        return employeeMapper.getOne(id);
+    }
 
     //  ======== HardCode版本==========
 //    @Autowired

@@ -4,6 +4,7 @@ package com.bill.springbootquick.controller;
 import com.bill.springbootquick.entities.Department;
 import com.bill.springbootquick.entities.Employee;
 import com.bill.springbootquick.mapper.DepartmentMapper;
+import com.bill.springbootquick.mapper.EmployeeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +20,9 @@ public class DepartmentController {
 
     @Autowired
     DepartmentMapper departmentMapper;
+
+    @Autowired
+    EmployeeMapper employeeMapper;
 
     @GetMapping("/select{id}")
     public Department getDepartment(@PathVariable("id") Integer id) {
@@ -47,6 +51,12 @@ public class DepartmentController {
     public List getAllDept(){
         return departmentMapper.getAll();
     }
+
+
+//    @GetMapping("/selectEmp{id}")
+//    public Employee getEmp(@PathVariable("id") Integer id) {
+//        return employeeMapper.getOne(id);
+//    }
 
 
 }

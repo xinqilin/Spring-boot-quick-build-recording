@@ -10,6 +10,16 @@ public class Employee {
     //1 male, 0 female
     private Integer gender;
     private Department department;
+    private Integer departmentId;
+
+    public Integer getDepartmentId() {
+        return departmentId;
+    }
+
+    public void setDepartmentId(Integer departmentId) {
+        this.departmentId = departmentId;
+    }
+
     private Date birth;
 
     public Integer getId() {
