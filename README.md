@@ -99,7 +99,7 @@ public class HelloController {
   <version>1.5.9.RELEASE</version>
   <relativePath>../../spring-boot-dependencies</relativePath>
 </parent>
-他来真正管理Spring Boot应用里面的所有依赖版本；
+
 
 ```
 
