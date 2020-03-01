@@ -15,9 +15,9 @@ CREATE TABLE `employee` (
 
 
 
-insert into employee
-values(null,'Bill','123@gmail.com',0,1),
-(null,'David','456@gmail.com',1,2),
-(null,'Peter','789@gmail.com',0,3),
-(null,'Paul','110@gmail.com',0,4),
-(null,'Lagain','119@gmail.com',1,5);
+insert into employee 
+values(null,'Bill','123@gmail.com',0,1001),
+(null,'David','456@gmail.com',1,1002),
+(null,'Peter','789@gmail.com',0,1003),
+(null,'Paul','110@gmail.com',0,1004),
+(null,'Lagain','119@gmail.com',1,1005);
